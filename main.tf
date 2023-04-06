@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module s3_bucket {
-    source = "../../../MODULES/S3-BUCKET"
+    source = "modules"
 }
 
 output "s3_bucket_id" {
