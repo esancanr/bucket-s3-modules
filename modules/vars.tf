@@ -17,7 +17,7 @@ variable environment {
   description = "description"
 }
 
-variable visibility {
+variable acl {
   type        = string
   default     = "private"
   description = "This variable contains the acl value of a bucket"
